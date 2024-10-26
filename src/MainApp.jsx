@@ -28,7 +28,7 @@ function MainApp() {
     <div className='text-xl w-full h-screen px-[5%] text-center font-semibold flex flex-col'>
       <div className='flex justify-between w-full h-auto items-center'>
         <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-900'>
-          Chatter Application
+          RTC - Real Time Chat
         </h1>
         {
           user && <h2>Welcome {user.displayName}</h2>
