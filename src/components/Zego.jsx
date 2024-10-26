@@ -14,7 +14,7 @@ const RoomPage = () => {
             sharedLinks: [
                 {
                     name: 'Copy Link',
-                    url: `Need to Chege ${roomID}`,
+                    url: `https://rtc-realtimechat.netlify.app/${roomID}`,
                 },
             ],
             scenario: {

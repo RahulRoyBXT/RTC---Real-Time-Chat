@@ -47,7 +47,7 @@ function MainApp() {
       </div>
       {
         !user && <div className='w-full h-[25rem] flex justify-center items-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-800'>
-          Welcome to the Chatter Application, Sign In to Continue.
+          Welcome to the RTC, Sign In to Continue.
         </div>
       }
       {
