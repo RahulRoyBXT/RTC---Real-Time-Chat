@@ -3,10 +3,5 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-
-.meeting {
-    margin: -20px;
-    width: 100vw;
-    height: 96vh;
+    background-color: black;
 }

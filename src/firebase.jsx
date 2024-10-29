@@ -5,13 +5,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDrf260fp8M3yrw0By5gsEaetApcroCuSM",
-    authDomain: "rtc-real-time-chat.firebaseapp.com",
-    projectId: "rtc-real-time-chat",
-    storageBucket: "rtc-real-time-chat.appspot.com",
-    messagingSenderId: "909096321641",
-    appId: "1:909096321641:web:27266855229d8299c118f8",
-    measurementId: "G-R0K8SR8J2E"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
   };
 
 // Initialize Firebase
