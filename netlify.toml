@@ -2,8 +2,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true
-
-[build]
-  publish = "dist"  # Make sure this matches your output directory
-  command = "npm run build"  # Your build command
