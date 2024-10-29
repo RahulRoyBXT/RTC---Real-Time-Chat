@@ -15,7 +15,7 @@ function HomePage() {
         <h1 className='sm:hidden text-4xl font-bold text-transparent bg-clip-text text-center'>
          <span className='text-5xl font-extrabold text-purple-600'> RTC </span> <br /><span className='text-xl text-pink-900'> Real Time Chat </span>
         </h1>
-        <h1 className='max-sm:hidden text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-900'>
+        <h1 className='max-sm:hidden text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-900'>
           RTC - Real Time Chat
         </h1>
         {
@@ -34,9 +34,10 @@ function HomePage() {
         }
       </div>
       {
-        !user && <div className='max-sm:mt-20 w-full h-full bg-gradient-to-r from-purple-600 to-red-800 font-bold text-5xl text-transparent bg-clip-text  max-sm:p-2 max-sm:text-6xl'>
-          Welcome to the RTC, <span className='max-sm:text-4xl'><span className='sm:hidden'> <br/> </span>Sign In to Continue.</span>
+        !user && <><div className='sm:p-20 sm:mt-10 max-sm:mt-20 w-full h-full bg-gradient-to-r from-purple-600 to-red-800 font-bold text-5xl text-transparent bg-clip-text  max-sm:p-5 max-sm:text-6xl'>
+         <span className='sm:text-6xl sm:leading-loose'> Welcome</span><br /><span className='sm:text-5xl'> to the</span> <span className='sm:text-red-800'> RTC</span>,  <span className='max-sm:text-4xl'><span> <br/> </span><span className='sm:text-red-800'>Sign In</span> to Continue.</span>
         </div>
+        </>
       }
       {/* {
         user && currentRoom && <Chat setCurrentRoom={setCurrentRoom} room={currentRoom} />
