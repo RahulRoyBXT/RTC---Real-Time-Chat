@@ -9,6 +9,7 @@ function HomePage() {
   const [user] = useAuthState(auth);
   const [currentRoom, setCurrentRoom] = useState('');
   const { googleSignIn,signOut } = useAuth();
+  
   return (
     <div className='max-sm:bg-gray-200 max-sm:dark:bg-white w-full min-h-screen'>
       <div className='flex flex-col items-center gap-5 pt-10'>
