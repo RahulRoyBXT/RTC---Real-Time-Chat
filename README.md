@@ -13,7 +13,6 @@ RTC (Real-Time Chat) is a real-time communication platform designed for users to
 - Auto-Delete Previous Rooms: Rooms are automatically deleted after 5 hours using a     
   hook, preventing clutter.
 
-## Features
 ## Installation
 To set up and run the project locally, follow these steps:
 - Frontend: React, Tailwind CSS
