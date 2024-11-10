@@ -1,5 +1,5 @@
 
-```markdown
+
 # RTC---Real-Time-Chat
 
 ## Introduction
@@ -8,7 +8,7 @@ RTC (Real-Time Chat) is a real-time communication platform designed for users to
 ## Features
 - User Authentication: Secure sign-in using Google with Firebase Authentication.
 - Real-Time Messaging: Instant messaging support with live updates.
--Video Chat: High-quality group video calls powered by ZEGOCLOUD.
+- Video Chat: High-quality group video calls powered by ZEGOCLOUD.
 - Interactive Whiteboard: A real-time whiteboard for collaboration during video calls.
 - Auto-Delete Previous Rooms: Rooms are automatically deleted after 5 hours using a     
   hook, preventing clutter.
@@ -62,8 +62,6 @@ npm run dev
   password.
 - Chat: Users can send messages in real-time with instant delivery.
 - Video Calling: Users can initiate or join group video calls.
-- Whiteboard: A real-time collaborative whiteboard can be used during the video call.
-- Reactions: Users can react to messages or video content with emojis.
 
 ## Security
 # Authentication and Authorization
@@ -85,15 +83,11 @@ This allows only authenticated users to read and write to Firestore, preventing 
 
 
 ## Future Enhancements
-- User Roles: Implement roles like admin, moderator, and participant for more control 
-  over who can perform specific actions in a room.
 - Message Encryption: Implement end-to-end encryption for chat messages to prevent 
   unauthorized reading.
 - UI/UX Improvements: Work on the visual interface to improve the user experience and 
   make it more intuitive.
-- Room Settings: Allow room creators to manage room settings, such as 
-  enabling/disabling features like whiteboard or reactions.
-
+  
   
 ## Contributing
 We welcome contributions from the community. To contribute, please follow these steps:
