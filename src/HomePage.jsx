@@ -55,7 +55,7 @@ function HomePage() {
         <h1 className="max-sm:hidden text-6xl font-bold text-transparent textCol">
           RTC - Real Time Chat
         </h1>
-        {user && <h2>Welcome {user.displayName}</h2>}
+        {user && <h2 className="text-white text-opacity-90">Welcome {user.displayName}</h2>}
         {/* Sign In/Out Button */}
         {user ? (
           <button
