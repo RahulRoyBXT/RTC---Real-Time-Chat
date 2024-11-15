@@ -20,11 +20,16 @@ function App() {
   //   setAnimationName(animations[newIndex]);
   //   localStorage.setItem('backgroundAnimationIndex', newIndex.toString());
   // }, []);
+
+  const ImagePage = () => {
+    return <img src="/favicon.png" alt="Thumbnail" />;
+  };
   return (<>
     <AnimatedBackground animationName='auroraBorealis'/>
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='/room/:roomID' element={<Zego />} />
+      <Route path='/thumbnail.jpg' element={<ImagePage/>} />
     </Routes>
     </>
   );
