@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@zegocloud/zego-uikit-prebuilt": "^2.0.1",
+    "animated-backgrounds": "^1.0.11",
     "bcryptjs": "^2.4.3",
     "firebase": "^10.10.0",
+    "motion": "^11.11.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-firebase-hooks": "^5.1.1",
