@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /room/
+Allow: /
+
+Sitemap: https://rtc-realtimechat.netlify.app/sitemap.xml
