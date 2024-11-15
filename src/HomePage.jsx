@@ -52,7 +52,7 @@ function HomePage() {
           <br />
           <span className="text-xl text-pink-900">Real Time Chat</span>
         </h1>
-        <h1 className="max-sm:hidden text-6xl font-bold text-transparent text-[#00C8AB]">
+        <h1 className="max-sm:hidden text-6xl font-bold text-transparent textCol">
           RTC - Real Time Chat
         </h1>
         {user && <h2>Welcome {user.displayName}</h2>}
