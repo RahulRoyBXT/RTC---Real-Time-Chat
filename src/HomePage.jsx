@@ -204,6 +204,7 @@ function HomePage() {
                 </div>
               </div>
             </motion.div>
+            
           </div>
         </>
       )}
